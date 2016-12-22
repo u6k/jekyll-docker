@@ -1,56 +1,38 @@
 # jekyll-docker
+
 Jekyllを使用できるDockerイメージを作成します。
 
-# Awesome-name
-
-![Badge Status](https://ci-as-a-service)
-
-OverviewOverviewOverview
-
-## Description
-
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-
-***DEMO:***
-
-![Demo](https://image-url.gif)
-
-## Features
-
-- Awesome function
-- Awesome UI
-- ...
-
-For more information, see `awesome-tool --help`.
-
-## Requirement
-
-- Requirement
-- Requirement
-- Requirement
+[![GitHub release](https://img.shields.io/github/release/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker)
+[![license](https://img.shields.io/github/license/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker/blob/master/LICENSE)
+TODO: ImageLayersでDockerHubをバッヂ表示
 
 ## Usage
 
-1. Usage
-2. Usage
-3. Usage
+Jekyllサイトを管理するフォルダで、以下のようにjekyll-dockerコンテナを起動します。新規にサイトを作成する場合は、空のフォルダで起動します。
 
-## Installation
+TODO: jekyll-dockerコンテナ起動コマンド
 
-    $ git clone https://github.com/b4b4r07/awesome-tool
+新規のJekyllサイトを作成する場合
 
-## Anything Else
+TODO: 新規Jekyllサイト作成コマンド
 
-AnythingAnythingAnything
-AnythingAnythingAnything
-AnythingAnythingAnything
+Jekyllサイトをプレビューする場合
+
+TODO: Jekyllサイトプレビュー
+
+JekyllサイトをAmazon S3にアップロードする場合
+
+TODO: S3アップロード
 
 ## Author
 
-[@b4b4r07](https://twitter.com/b4b4r07)
+- Blog
+    - [u6k.log()](http://blog.u6k.me/)
+- GitHub
+    - [u6k/jekyll-docker](https://github.com/u6k/jekyll-docker)
+- DockerHub
+    - TODO: DockerHubリンク
 
 ## License
 
-[MIT](http://b4b4r07.mit-license.org)
+[![license](https://img.shields.io/github/license/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker/blob/master/LICENSE)
