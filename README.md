@@ -10,17 +10,28 @@ TODO: ImageLayersでDockerHubをバッヂ表示
 
 Jekyllサイトを管理するフォルダで、以下のようにjekyll-dockerコンテナを起動します。新規にサイトを作成する場合は、空のフォルダで起動します。
 
-TODO: jekyll-dockerコンテナ起動コマンド
+```
+$ docker run --rm -it -v $(pwd):/var/myblog -p 4000:4000 u6k/jekyll-docker bash
+```
 
-新規のJekyllサイトを作成する場合
+### 新規のJekyllサイトを作成する場合
 
-TODO: 新規Jekyllサイト作成コマンド
+```
+# jekyll new .
+```
 
-Jekyllサイトをプレビューする場合
+カレント・フォルダにファイルが生成されます。
 
-TODO: Jekyllサイトプレビュー
+### Jekyllサイトをプレビューする場合
 
-JekyllサイトをAmazon S3にアップロードする場合
+```
+# bundle update
+# jekyll server --host 0.0.0.0
+```
+
+[http://localhost:4000](http://localhost:4000)にアクセスすると、プレビューが表示されます。
+
+### JekyllサイトをAmazon S3にアップロードする場合
 
 TODO: S3アップロード
 
