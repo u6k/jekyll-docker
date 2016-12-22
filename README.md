@@ -2,9 +2,7 @@
 
 Jekyllを使用できるDockerイメージを作成します。
 
-[![GitHub release](https://img.shields.io/github/release/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker)
-[![license](https://img.shields.io/github/license/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker/blob/master/LICENSE)
-TODO: ImageLayersでDockerHubをバッヂ表示
+[![GitHub release](https://img.shields.io/github/release/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker) [![license](https://img.shields.io/github/license/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker/blob/master/LICENSE) [![Docker Automated build](https://img.shields.io/docker/automated/u6kapps/jekyll-docker.svg)](https://hub.docker.com/r/u6kapps/jekyll-docker/) [![u6k.blog()](https://img.shields.io/badge/u6k-.blog-orange.svg)](http://blog.u6k.me/)
 
 ## Requirement
 
@@ -37,7 +35,7 @@ Server:
 Jekyllサイトを管理するフォルダで、以下のようにjekyll-dockerコンテナを起動します。新規にサイトを作成する場合は、空のフォルダで起動します。
 
 ```
-$ docker run --rm -it -v $(pwd):/var/myblog -p 4000:4000 u6k/jekyll-docker bash
+$ docker run --rm -it -v $(pwd):/var/myblog -p 4000:4000 u6kapps/jekyll-docker bash
 ```
 
 ### 新規のJekyllサイトを作成する場合
@@ -103,8 +101,8 @@ Webサイトをビルドして、Amazon S3にアップロードします。
 - GitHub
     - [u6k/jekyll-docker](https://github.com/u6k/jekyll-docker)
 - DockerHub
-    - TODO: DockerHubリンク
+    - [u6kapps/jekyll-docker](https://hub.docker.com/r/u6kapps/jekyll-docker/)
 
 ## License
 
-[![license](https://img.shields.io/github/license/u6k/jekyll-docker.svg)](https://github.com/u6k/jekyll-docker/blob/master/LICENSE)
+[MIT License](https://github.com/u6k/jekyll-docker/blob/master/LICENSE)
